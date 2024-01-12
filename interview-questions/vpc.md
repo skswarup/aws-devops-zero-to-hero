@@ -32,13 +32,13 @@ You can create private subnets and configure security groups to allow communicat
 The default VPC is a pre-configured VPC that is created for your AWS account in each region. It simplifies instance launch but doesn't provide the same level of isolation as custom VPCs.
 
 ### 12. Can you peer VPCs in different regions?
-No, VPC peering is limited to VPCs within the same region. To connect VPCs across regions, you would need to use VPN or AWS Direct Connect.
+No, VPC peering is limited to VPCs within the same region. To connect VPCs across regions, you would need to **use VPN or AWS Direct Connect**.
 
 ### 13. How can you control public and private IP addresses in Amazon VPC?
 Amazon VPC allows you to allocate private IP addresses to instances automatically. Public IP addresses can be associated with instances launched in public subnets.
 
 ### 14. What is a VPN connection in Amazon VPC?
-A VPN connection allows you to securely connect your on-premises network to your Amazon VPC using encrypted tunnels over the public internet.
+A VPN connection allows you to securely connect your on-premises network to your Amazon VPC using **encrypted tunnels** over the public internet.
 
 ### 15. What is an Internet Gateway (IGW) in Amazon VPC?
 An Internet Gateway enables instances in your VPC to access the internet and allows internet traffic to reach instances in your VPC.
