@@ -38,7 +38,7 @@ No, VPC peering is limited to VPCs within the same region. To connect VPCs acros
 Amazon VPC allows you to allocate private IP addresses to instances automatically. Public IP addresses can be associated with instances launched in public subnets.
 
 ### 14. What is a VPN connection in Amazon VPC?
-A VPN connection allows you to securely connect your on-premises network to your Amazon VPC using encrypted tunnels over the public internet.
+A VPN connection allows you to securely connect your on-premises network to your Amazon VPC using** encrypted tunnels over the public internet.**
 
 ### 15. What is an Internet Gateway (IGW) in Amazon VPC?
 An Internet Gateway enables instances in your VPC to access the internet and allows internet traffic to reach instances in your VPC.
